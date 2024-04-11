@@ -1,0 +1,9 @@
+1、ios中需要配置url schema配置，参考教程演示或者参考支付宝官方文档：https://opendocs.alipay.com/open/204/105295/
+
+2、android中需要找到android\app\build.gradle修改minSdkVersion 19
+
+	defaultConfig {
+    		 ...
+      		  minSdkVersion 19     
+ 		 ...
+  	 }
